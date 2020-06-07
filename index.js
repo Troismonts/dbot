@@ -41,6 +41,9 @@ client.on('message', msg => {
   if (msg.content === '^^ping') {     // Si le message dit "^^ping"
     msg.reply('Pong! :ping_pong:');   // Répond "Pong!"
   }
+  if (msg.content === '^^arthur') {     // Si le message dit "^^ping"
+    msg.reply('bonjour');   // Répond "Pong!"
+  }
 
   if (msg.content === '^^abo2') {     // Si le message dit "^^abo2"
     msg.reply('Hey! Abonnez-vous à la châine de T2006 → https://www.youtube.com/channel/UCWC87vcR72VDYM7AGBzuBDQ :T2006:');   // Répond "Pong!"
